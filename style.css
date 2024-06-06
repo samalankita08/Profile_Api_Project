@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(178, 178, 236),rgb(228, 181, 181));
+
+}
+
+.header-container{
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+}
+.header-content{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    /* background-color: pink; */
+}
+.title{
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-container{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 16px;
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.profile-card{
+    display: inline-block;
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 24px;
+    box-shadow: 0 0 8px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(90deg, rgb(83, 83, 190),rgb(129, 67, 77));
+    
+}
+.profile-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 16px 0px rgba(0,0,0,0.2);
+
+}
+.profileImg{
+    height: 45%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 70%;
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 60px white;
+    transition: 0.5s ease;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+.info{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(131, 151, 113); */
+    margin-top: -8%;
+}
+.info>h3{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+.info>h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -4%;
+    color: antiquewhite;
+}
+.info>p{
+    text-align: center;
+    padding-top: -30px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+button{
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: aqua;
+    background-color: black;
+    border: 1px solid aqua;
+    box-shadow: 0 0 40px white;
+    transition: 0.5s ease-out;
+}
+
+.firstBtn{
+    margin-left: 40px;
+}
+button:hover{
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
